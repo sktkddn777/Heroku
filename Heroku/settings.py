@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'Heroku.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django_test',
-        'USER': 'postgres',
-        'PASSWORD': '1357',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'dbu4ftbiacbi5v',
+        'USER': 'izowzvkfrpyxjf',
+        'PASSWORD': 'e9071094fe418ef38c1099e7fd0ac4db6e2c37c25acbbec3c9a694a3dab29bdb',
+        'HOST': 'ec2-52-23-40-80.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
