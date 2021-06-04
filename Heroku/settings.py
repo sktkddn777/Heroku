@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-zan&p^v=45%2gqbl*$(ecj(rhqe^164uxy!9v-_(r(_=%0)p84
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sangwoo-crm1.herokuapp.com']
+ALLOWED_HOSTS = ['sangwoo-crm1.herokuapp.com',
+                '127.0.0.1',
+]
 # Application definition
 
 INSTALLED_APPS = [
