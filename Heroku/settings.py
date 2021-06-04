@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'Heroku.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'django_test',
+        'USER': 'postgres',
+        'PASSWORD': '1357',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
